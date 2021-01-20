@@ -3,14 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./pages/index.css">
     <title>Cloudbudget</title>
 </head>
 <body>
     <div class="page">
         <header class="header">
+            <!-- <img src="./images/hero-image.png" alt="person using a laptop" class="header__image"> -->
             <nav class="header__navigation">
                 <div class="header__logo">
                     <img src="./images/cloud.png" alt="cloud icon" class="header__logo-icon">
@@ -18,7 +17,7 @@
                 </div>
                 <div class="header__links">
                     <ul class="header__links-container">
-                        <li class="header__link">overview</li>
+                        <li class="header__link">overview</li> <a href="" class="header__link"></a>
                         <li class="header__link">features</li>
                         <li class="header__link">technology</li>
                         <li class="header__link">contact</li>
@@ -26,10 +25,10 @@
                     </ul>
                 </div>
                 <div class="header__language">
-                    <img src="" alt="" class="header__language-logo">
+                    <img src="./images/emojione-flag-for-flag-united-states.png" alt="" class="header__language-logo">
                     <p class="header__language-acronym">en</p>
-                    <img src="./images/emojione-flag-for-flag-united-states.png" alt="" class="header__language-downarrow">
-                    <button class="header__language-logo">login</button>
+                    <img src="./images/Vector.png" alt="" class="header__language-downarrow">
+                    <button class="header__language-button">login</button>
                 </div>
             </nav>
             <h1 class="header__title">cloudbudget</h1>
@@ -37,89 +36,91 @@
             <button class="header__button">sign up</button>
         </header>
 
-        <section class="video">
-            <div class="two-columns">
-                <div class="two-columns__first">
-                    <h2 class="two-columns__title">Easy to Use Cloud Budget Management Software</h2>
-                    <p class="two-columns__main-text">Our software is made so you can access and manage your budget and expenses online at any time from any device. It provides detailed income and expense reports with graphs so you can easilly see your spending patterns and budget at a glance. Read below to find out more.</p>
-                    <a href="#" class="two-columns__link">Learn More</a>
+        <main class="content">
+            <section class="video">
+                <div class="two-columns">
+                    <div class="two-columns__first">
+                        <h2 class="two-columns__title">Easy to Use Cloud Budget Management Software</h2>
+                        <p class="two-columns__main-text">Our software is made so you can access and manage your budget and expenses online at any time from any device. It provides detailed income and expense reports with graphs so you can easilly see your spending patterns and budget at a glance. Read below to find out more.</p>
+                        <a href="#" class="two-columns__link">Learn More</a>
+                    </div>
+                    <div class="two-columns__second">
+                        <img src="./images/video-Play Button.png" alt="video play button" class="two-columns__logo">
+                        <img src="./images/Video_bg.png" alt="people sitting together" class="two-columns__image">
+                    </div>
                 </div>
-                <div class="two-columns__second">
-                    <img src="./images/video-Play Button.png" alt="video play button" class="two-columns__logo">
-                    <img src="./images/Video_bg.png" alt="people sitting together" class="two-columns__image">
-                </div>
-            </div>
-        </section>
+            </section>
 
-        <section class="features">
-            <h2 class="section-title">Features</h2>
-            <ul class="cards">
-                <li class="cards__container">
-                    <img src="./images/Bg.png" alt="hand holding money" class="cards__image">
-                    <div class="cards__item">
-                        <h3 class="cards__description">Supports All Currencies and Cards</h3>
-                        <p class="cards__text">We support all popular currencies and are fully customisable to add</p>
-                        <a href="" class="cards__link">Read More</a>
-                    </div>
-                </li>
-                <li class="cards__container">
-                    <img src="./images/Bg-1.png" alt="hand holding mobile" class="cards__image">
-                    <div class="cards__item">
-                        <h3 class="cards__description">Manage your expenses on the go</h3>
-                        <p class="cards__text">You can access your account from anywhere in the world on any device</p>
-                        <a href="" class="cards__link">Read More</a>
-                    </div>
-                </li>
-                <li class="cards__container">
-                    <img src="./images/Bg-2.png" alt="corridor with glazing" class="cards__image">
-                    <div class="cards__item">
-                        <h3 class="cards__description">Cloud Budget Management Software</h3>
-                        <p class="cards__text">Our software is made so you can access and manage your budget</p>
-                        <a href="" class="cards__link">Read More</a>
-                    </div>
-                </li>
-            </ul>
-        </section>
-
-        <section class="technology">
-            <h2 class="section-title">Technology</h2>
-            <div class="numbers">
-                <ul class="numbers__container">
-                    <li class="numbers__item">
-                        <p class="numbers__number">01</p>
-                        <img src="./images/ant-design_cloud-download-outline.png" alt="cloud icon" class="numbers__icon">
-                        <p class="numbers__title">Cloud Storage</p>
-                        <p class="numbers__main-text">Access your account from anywhere in the world on any device</p>
+            <section class="features">
+                <h2 class="section-title">Features</h2>
+                <ul class="cards">
+                    <li class="cards__container">
+                        <img src="./images/Bg.png" alt="hand holding money" class="cards__image">
+                        <div class="cards__item">
+                            <h3 class="cards__description">Supports All Currencies and Cards</h3>
+                            <p class="cards__text">We support all popular currencies and are fully customisable to add</p>
+                            <a href="" class="cards__link">Read More</a>
+                        </div>
                     </li>
-                    <li class="numbers__item">
-                        <p class="numbers__number">02</p>
-                        <img src="./images/ant-design_security-scan-outline.png" alt="magnifying glass icon" class="numbers__icon">
-                        <p class="numbers__title">Secure</p>
-                        <p class="numbers__main-text">All your information is stored on secure cloud servers</p>
+                    <li class="cards__container">
+                        <img src="./images/Bg-1.png" alt="hand holding mobile" class="cards__image">
+                        <div class="cards__item">
+                            <h3 class="cards__description">Manage your expenses on the go</h3>
+                            <p class="cards__text">You can access your account from anywhere in the world on any device</p>
+                            <a href="" class="cards__link">Read More</a>
+                        </div>
                     </li>
-                    <li class="numbers__item">
-                        <p class="numbers__number">03</p>
-                        <img src="./images/iwwa-file-pdf.png" alt="pdf icon" class="numbers__icon">
-                        <p class="numbers__title">PDF Download</p>
-                        <p class="numbers__main-text">Download any of your reports in PDF format</p>
-                    </li>
-                    <li class="numbers__item">
-                        <p class="numbers__number">04</p>
-                        <img src="./images/iwwa-file-csv.png" alt="csv icon" class="numbers__icon">
-                        <p class="numbers__title">CSV Download</p>
-                        <p class="numbers__main-text">All your information is stored on secure cloud servers</p>
+                    <li class="cards__container">
+                        <img src="./images/Bg-2.png" alt="corridor with glazing" class="cards__image">
+                        <div class="cards__item">
+                            <h3 class="cards__description">Cloud Budget Management Software</h3>
+                            <p class="cards__text">Our software is made so you can access and manage your budget</p>
+                            <a href="" class="cards__link">Read More</a>
+                        </div>
                     </li>
                 </ul>
-            </div>
-        </section>
+            </section>
 
-        <section class="apps">
+            <section class="technology">
+                <h2 class="section-title">Technology</h2>
+                <div class="numbers">
+                    <ul class="numbers__container">
+                        <li class="numbers__item">
+                            <p class="numbers__number">01</p>
+                            <img src="./images/ant-design_cloud-download-outline.png" alt="cloud icon" class="numbers__icon">
+                            <p class="numbers__title">Cloud Storage</p>
+                            <p class="numbers__main-text">Access your account from anywhere in the world on any device</p>
+                        </li>
+                        <li class="numbers__item">
+                            <p class="numbers__number">02</p>
+                            <img src="./images/ant-design_security-scan-outline.png" alt="magnifying glass icon" class="numbers__icon">
+                            <p class="numbers__title">Secure</p>
+                            <p class="numbers__main-text">All your information is stored on secure cloud servers</p>
+                        </li>
+                        <li class="numbers__item">
+                            <p class="numbers__number">03</p>
+                            <img src="./images/iwwa-file-pdf.png" alt="pdf icon" class="numbers__icon">
+                            <p class="numbers__title">PDF Download</p>
+                            <p class="numbers__main-text">Download any of your reports in PDF format</p>
+                        </li>
+                        <li class="numbers__item">
+                            <p class="numbers__number">04</p>
+                            <img src="./images/iwwa-file-csv.png" alt="csv icon" class="numbers__icon">
+                            <p class="numbers__title">CSV Download</p>
+                            <p class="numbers__main-text">All your information is stored on secure cloud servers</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
 
-        </section>
+            <section class="apps">
 
-        <section class="contact">
+            </section>
 
-        </section>
+            <section class="contact">
+
+            </section>
+        </main>
 
         <footer class="footer">
             <div class="footer__address">
